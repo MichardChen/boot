@@ -1,0 +1,12 @@
+server:
+  port: 8668
+
+spring:
+  application:
+    name: mainboot
+  aop:
+    auto: true
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
